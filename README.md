@@ -37,6 +37,18 @@ JobGuard analyzes these signals along with textual and structured job-posting fe
 
 ---
 
+## Business Problem
+
+Online job seekers may encounter fraudulent job postings that contain suspicious financial requests, unrealistic income promises, urgent instructions, or other warning indicators.
+
+Manually evaluating these signals across large numbers of job postings can be difficult.
+
+JobGuard addresses this problem by applying a machine-learning classification model and an analytical risk-scoring framework to job-posting data.
+
+The system transforms job-posting information into measurable features, predicts fraud probability, converts the prediction into an interpretable risk score, and presents the results through an interactive dashboard.
+
+---
+
 ## Objectives
 
 The main objectives of JobGuard are to:
@@ -48,12 +60,39 @@ The main objectives of JobGuard are to:
 5. Build an interactive analytics dashboard.
 6. Make model predictions easier to interpret.
 7. Demonstrate an end-to-end Data Analytics and Machine Learning workflow.
+8. Deploy the analytical solution as a live web application.
+
+---
+
+## Application Preview
+
+### Main Dashboard
+
+The JobGuard dashboard provides an interactive interface for analyzing job postings and reviewing risk indicators.
+
+![JobGuard Dashboard](docs/screenshots/dashboard.png)
+
+---
+
+### Risk Analysis
+
+The analysis view presents the model's fraud probability, overall risk score, prediction, and observable warning signals.
+
+![JobGuard Risk Analysis](docs/screenshots/risk-analysis.png)
+
+---
+
+### Analysis History
+
+JobGuard provides an analysis history view for reviewing previously analyzed job postings during the current application session.
+
+![JobGuard Analysis History](docs/screenshots/analysis-history.png)
 
 ---
 
 ## Machine Learning Approach
 
-JobGuard uses a Logistic Regression classification model.
+JobGuard uses a **Logistic Regression** classification model.
 
 ### Machine Learning Workflow
 
