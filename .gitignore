@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.streamlit/secrets.toml
+JobGuard_Test_Report.pdf
+JobGuard_*.pdf
+JobGuard_Test_Report.csv
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
